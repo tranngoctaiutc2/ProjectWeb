@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7E1GLF7iOIG7c9QuBLakRBX2dRv6EKKXkSHKLZW4lFA=",
+  "Hash": "sh1yN3VWNws2oPvgfyV1B9HFsdYX3TIMc/OaGIcGNEQ=",
   "Source": "Project_Demo",
   "BasePath": "_content/Project_Demo",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\1.jpg"
+    },
+    {
+      "Identity": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\images\\2.jpg",
+      "SourceId": "Project_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\",
+      "BasePath": "_content/Project_Demo",
+      "RelativePath": "images/2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
       "Identity": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\js\\bootstrap.min.js",

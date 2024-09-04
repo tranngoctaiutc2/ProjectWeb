@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\1.jpg"
     },
     {
+      "Id": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
       "Id": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

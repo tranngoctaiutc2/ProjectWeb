@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iRCKx8SQf5VTBCOyHto2ExwItWPDw6ioe0r2xG6qZ/i3ZM9nWMZP6allw+VIO0pwRhxBHA7uj9MyVf+3QiE0EQ==",
+  "dgSpecHash": "X/DYjKJpd/PhPvQ4thKYjcQ0tSCWZ6hnbVrfxN3oNEXNp9LTxFpAm3EcF6YvJ2ekFYbOcmZL4hl8bVrTHAPiyw==",
   "success": true,
   "projectFilePath": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\Project_Demo.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\LENOVO1\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO1\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO1\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\LENOVO1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\LENOVO1\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\LENOVO1\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO1\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

@@ -12,9 +12,11 @@ namespace Project_Demo.Areas.Admin.Controllers
 	public class ProductController : Controller
 	{
 		private readonly DataContext _dataContext;
-		public ProductController(DataContext dataContext)
+		private readonly IWebHostEnvironment _webHostEnvironment;
+		public ProductController(DataContext dataContext, IWebHostEnvironment webHostEnvironment)
 		{
 			_dataContext = dataContext;
+			_webHostEnvironment = webHostEnvironment;
 		}
 		public async Task<IActionResult> Index()
 		{
@@ -28,14 +30,34 @@ namespace Project_Demo.Areas.Admin.Controllers
         }
         [HttpPost]
 		[ValidateAntiForgeryToken]
-
         public async Task<IActionResult> Create(ProductModel product)
 		{
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryID);
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name", product.BrandID);
 			if(ModelState.IsValid)
 			{
-                TempData["succes"] = "Model không lỗi";
+				product.Slug = product.Name.Replace(" ", "-");
+				var slug = await _dataContext.Products.FirstOrDefaultAsync(c => c.Slug == product.Slug);
+				if(slug != null)
+				{
+					ModelState.AddModelError("", "Sản phẩm đã tồn tại");
+					return View(product);
+				}
+					if(product.ImageUpload != null)
+					{
+						string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath,"media/products");
+						string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpload.FileName;
+						string filePath = Path.Combine(uploadDir, imageName);
+
+						FileStream fs = new FileStream(filePath, FileMode.Create);
+						await product.ImageUpload.CopyToAsync(fs);
+						fs.Close();
+						product.Image = imageName;
+					}				
+				_dataContext.Add(product);
+				await _dataContext.SaveChangesAsync();
+				TempData["succes"] = "Thêm sản phẩm thành công";
+				return RedirectToAction("Index");
             }
 			else
 			{

@@ -25,7 +25,7 @@ namespace Project_Demo.Models
         public BrandModel Brand { get; set; }
         public string Image { get; set; } = "noimage.jpg";
         [NotMapped]
-        [FileExtensions]
+        [FileExtension]
         public IFormFile ImageUpload { get; set; }
     }
 }

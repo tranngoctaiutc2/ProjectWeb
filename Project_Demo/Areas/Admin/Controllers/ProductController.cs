@@ -45,9 +45,9 @@ namespace Project_Demo.Areas.Admin.Controllers
 				}
 					if(product.ImageUpload != null)
 					{
-						string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath,"media/products");
+						string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath,"media/products");
 						string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpload.FileName;
-						string filePath = Path.Combine(uploadDir, imageName);
+						string filePath = Path.Combine(uploadsDir, imageName);
 
 						FileStream fs = new FileStream(filePath, FileMode.Create);
 						await product.ImageUpload.CopyToAsync(fs);

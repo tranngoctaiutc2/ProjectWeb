@@ -23,9 +23,9 @@ namespace Project_Demo.Models
         public int CategoryID { get; set; }
         public CategoryModel Category { get; set; }
         public BrandModel Brand { get; set; }
-        public string Image { get; set; } = "noimage.jpg";
+        public string Image { get; set; }
         [NotMapped]
         [FileExtension]
-        public IFormFile ImageUpload { get; set; }
+        public IFormFile? ImageUpload { get; set; }
     }
 }

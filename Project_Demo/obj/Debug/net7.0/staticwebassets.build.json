@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SB8MswCkepVjE7/3/F5IsC8RExbdJVzM1++RBM6Y8oU=",
+  "Hash": "sh1yN3VWNws2oPvgfyV1B9HFsdYX3TIMc/OaGIcGNEQ=",
   "Source": "Project_Demo",
   "BasePath": "_content/Project_Demo",
   "Mode": "Default",
@@ -1341,40 +1341,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\media\\products\\450991705_1087065793428348_1186819066655753706_n.jpg",
-      "SourceId": "Project_Demo",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\",
-      "BasePath": "_content/Project_Demo",
-      "RelativePath": "media/products/450991705_1087065793428348_1186819066655753706_n.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\450991705_1087065793428348_1186819066655753706_n.jpg"
-    },
-    {
-      "Identity": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\media\\products\\451054871_1087065756761685_8433921460289821292_n.jpg",
-      "SourceId": "Project_Demo",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\",
-      "BasePath": "_content/Project_Demo",
-      "RelativePath": "media/products/451054871_1087065756761685_8433921460289821292_n.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\451054871_1087065756761685_8433921460289821292_n.jpg"
     }
   ]
 }

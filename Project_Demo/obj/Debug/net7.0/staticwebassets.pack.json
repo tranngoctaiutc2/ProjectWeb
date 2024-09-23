@@ -309,6 +309,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\media\\products\\809d0ed7-adec-489d-b56e-cdc459bcdd6a_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\809d0ed7-adec-489d-b56e-cdc459bcdd6a_1.jpg"
+    },
+    {
+      "Id": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\media\\products\\e5852397-a6fc-4aac-b980-5b24b9bc10d6_2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e5852397-a6fc-4aac-b980-5b24b9bc10d6_2.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Project_Demo.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

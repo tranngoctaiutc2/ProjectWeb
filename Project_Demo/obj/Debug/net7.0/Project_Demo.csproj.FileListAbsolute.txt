@@ -75,3 +75,9 @@ D:\Source_Solution\Project_Demo\Project_Demo\obj\Debug\net7.0\Project_Demo.cspro
 D:\Source_Solution\Project_Demo\Project_Demo\obj\Debug\net7.0\Project_Demo.csproj.CopyComplete
 D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Source_Solution\Project_Demo\Project_Demo\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Source_Solution\Project_Demo\Project_Demo\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

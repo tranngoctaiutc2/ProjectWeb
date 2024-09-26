@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Project_Demo.bundle.scp.css"
     },
     {
+      "Id": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
       "Id": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "onNgyCOE5mhgllmotUi5YLyKwp6piaytLFCebhOrjOI=",
+  "Hash": "+2TY+owSoupe7zYxq2lApN8/ARBycoh+ppToiQwKPog=",
   "Source": "Project_Demo",
   "BasePath": "_content/Project_Demo",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Project_Demo.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "Project_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\",
+      "BasePath": "_content/Project_Demo",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "D:\\Source_Solution\\Project_Demo\\Project_Demo\\wwwroot\\css\\animate.css",

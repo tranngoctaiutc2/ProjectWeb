@@ -1,9 +1,9 @@
-﻿@model UserModel
+﻿@model LoginViewModel
 @{
     ViewData["Title"] = "Login";
 }
 
-<section id="form">
+<section>
 	<!--form-->
 	<div class="container">
 		<div class="row">
@@ -32,3 +32,8 @@
 		</div>
 	</div>
 </section><!--/form-->
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

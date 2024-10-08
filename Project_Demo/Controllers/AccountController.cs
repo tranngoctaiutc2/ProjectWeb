@@ -57,5 +57,10 @@ namespace Project_Demo.Controllers
             }
 			return View(user);
 		}
+        public async Task<IActionResult> Logout(string ReturnUrl = "/")
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect(ReturnUrl);
+        }
 	}
 }
